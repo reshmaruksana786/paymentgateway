@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E9D68CB82408B4F4E28BDC5 /* Pods_paymentgatewayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87EA97CF898E295CFD9AC2C0 /* Pods_paymentgatewayTests.framework */; };
+		7A09B87DE08D91539BC4A90A /* Pods_paymentgateway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040444C44FF5714C6E8AAE00 /* Pods_paymentgateway.framework */; };
 		83836A8E23D8067D00E75CE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83836A8D23D8067D00E75CE2 /* AppDelegate.swift */; };
 		83836A9023D8067D00E75CE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83836A8F23D8067D00E75CE2 /* SceneDelegate.swift */; };
 		83836A9223D8067D00E75CE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83836A9123D8067D00E75CE2 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		83836A9D23D8068000E75CE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83836A9B23D8068000E75CE2 /* LaunchScreen.storyboard */; };
 		83836AA823D8068000E75CE2 /* paymentgatewayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83836AA723D8068000E75CE2 /* paymentgatewayTests.swift */; };
 		83836AB323D8068000E75CE2 /* paymentgatewayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83836AB223D8068000E75CE2 /* paymentgatewayUITests.swift */; };
+		88B77F8C4DE5F2DC988F9D99 /* Pods_paymentgateway_paymentgatewayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21E2BA365DCB1D8F6BE521A /* Pods_paymentgateway_paymentgatewayUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040444C44FF5714C6E8AAE00 /* Pods_paymentgateway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paymentgateway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAA5CEFE08992E4F07FB66D /* Pods-paymentgatewayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymentgatewayTests.debug.xcconfig"; path = "Target Support Files/Pods-paymentgatewayTests/Pods-paymentgatewayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C2C9510949E40C55C672616 /* Pods-paymentgatewayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymentgatewayTests.release.xcconfig"; path = "Target Support Files/Pods-paymentgatewayTests/Pods-paymentgatewayTests.release.xcconfig"; sourceTree = "<group>"; };
 		83836A8A23D8067D00E75CE2 /* paymentgateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paymentgateway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83836A8D23D8067D00E75CE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83836A8F23D8067D00E75CE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		83836AAE23D8068000E75CE2 /* paymentgatewayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paymentgatewayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83836AB223D8068000E75CE2 /* paymentgatewayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentgatewayUITests.swift; sourceTree = "<group>"; };
 		83836AB423D8068000E75CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87EA97CF898E295CFD9AC2C0 /* Pods_paymentgatewayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paymentgatewayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9642221AE95AC8DCF0F1BA9D /* Pods-paymentgateway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymentgateway.release.xcconfig"; path = "Target Support Files/Pods-paymentgateway/Pods-paymentgateway.release.xcconfig"; sourceTree = "<group>"; };
+		98CAAE5718D52363256BA066 /* Pods-paymentgateway-paymentgatewayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymentgateway-paymentgatewayUITests.debug.xcconfig"; path = "Target Support Files/Pods-paymentgateway-paymentgatewayUITests/Pods-paymentgateway-paymentgatewayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A21E2BA365DCB1D8F6BE521A /* Pods_paymentgateway_paymentgatewayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paymentgateway_paymentgatewayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5A0A9D69F16B0468897BD5 /* Pods-paymentgateway-paymentgatewayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymentgateway-paymentgatewayUITests.release.xcconfig"; path = "Target Support Files/Pods-paymentgateway-paymentgatewayUITests/Pods-paymentgateway-paymentgatewayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D8B35A6693018664128F6F7A /* Pods-paymentgateway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymentgateway.debug.xcconfig"; path = "Target Support Files/Pods-paymentgateway/Pods-paymentgateway.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A09B87DE08D91539BC4A90A /* Pods_paymentgateway.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E9D68CB82408B4F4E28BDC5 /* Pods_paymentgatewayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88B77F8C4DE5F2DC988F9D99 /* Pods_paymentgateway_paymentgatewayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30EFFD6DB4528CDE97E8BC66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040444C44FF5714C6E8AAE00 /* Pods_paymentgateway.framework */,
+				A21E2BA365DCB1D8F6BE521A /* Pods_paymentgateway_paymentgatewayUITests.framework */,
+				87EA97CF898E295CFD9AC2C0 /* Pods_paymentgatewayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		83836A8123D8067D00E75CE2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				83836AA623D8068000E75CE2 /* paymentgatewayTests */,
 				83836AB123D8068000E75CE2 /* paymentgatewayUITests */,
 				83836A8B23D8067D00E75CE2 /* Products */,
+				C550AB4B02DBF479418D3069 /* Pods */,
+				30EFFD6DB4528CDE97E8BC66 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +158,20 @@
 			path = paymentgatewayUITests;
 			sourceTree = "<group>";
 		};
+		C550AB4B02DBF479418D3069 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8B35A6693018664128F6F7A /* Pods-paymentgateway.debug.xcconfig */,
+				9642221AE95AC8DCF0F1BA9D /* Pods-paymentgateway.release.xcconfig */,
+				98CAAE5718D52363256BA066 /* Pods-paymentgateway-paymentgatewayUITests.debug.xcconfig */,
+				BB5A0A9D69F16B0468897BD5 /* Pods-paymentgateway-paymentgatewayUITests.release.xcconfig */,
+				1CAA5CEFE08992E4F07FB66D /* Pods-paymentgatewayTests.debug.xcconfig */,
+				6C2C9510949E40C55C672616 /* Pods-paymentgatewayTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83836AB723D8068000E75CE2 /* Build configuration list for PBXNativeTarget "paymentgateway" */;
 			buildPhases = (
+				8B21AE866EB99849A9D9A767 /* [CP] Check Pods Manifest.lock */,
 				83836A8623D8067D00E75CE2 /* Sources */,
 				83836A8723D8067D00E75CE2 /* Frameworks */,
 				83836A8823D8067D00E75CE2 /* Resources */,
+				656263B22D42AF1A61641122 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83836ABA23D8068000E75CE2 /* Build configuration list for PBXNativeTarget "paymentgatewayTests" */;
 			buildPhases = (
+				DDA12BC51471F3C81DD609F5 /* [CP] Check Pods Manifest.lock */,
 				83836A9F23D8068000E75CE2 /* Sources */,
 				83836AA023D8068000E75CE2 /* Frameworks */,
 				83836AA123D8068000E75CE2 /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83836ABD23D8068000E75CE2 /* Build configuration list for PBXNativeTarget "paymentgatewayUITests" */;
 			buildPhases = (
+				0FBCB6E5DECFD0804DD8AC8A /* [CP] Check Pods Manifest.lock */,
 				83836AAA23D8068000E75CE2 /* Sources */,
 				83836AAB23D8068000E75CE2 /* Frameworks */,
 				83836AAC23D8068000E75CE2 /* Resources */,
+				0D29B0F31756C59FF372FFBD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D29B0F31756C59FF372FFBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paymentgateway-paymentgatewayUITests/Pods-paymentgateway-paymentgatewayUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paymentgateway-paymentgatewayUITests/Pods-paymentgateway-paymentgatewayUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-paymentgateway-paymentgatewayUITests/Pods-paymentgateway-paymentgatewayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FBCB6E5DECFD0804DD8AC8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-paymentgateway-paymentgatewayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		656263B22D42AF1A61641122 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paymentgateway/Pods-paymentgateway-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paymentgateway/Pods-paymentgateway-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-paymentgateway/Pods-paymentgateway-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B21AE866EB99849A9D9A767 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-paymentgateway-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA12BC51471F3C81DD609F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-paymentgatewayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83836A8623D8067D00E75CE2 /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		83836AB823D8068000E75CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B35A6693018664128F6F7A /* Pods-paymentgateway.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +603,7 @@
 		};
 		83836AB923D8068000E75CE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9642221AE95AC8DCF0F1BA9D /* Pods-paymentgateway.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +621,7 @@
 		};
 		83836ABB23D8068000E75CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CAA5CEFE08992E4F07FB66D /* Pods-paymentgatewayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +643,7 @@
 		};
 		83836ABC23D8068000E75CE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2C9510949E40C55C672616 /* Pods-paymentgatewayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +665,7 @@
 		};
 		83836ABE23D8068000E75CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98CAAE5718D52363256BA066 /* Pods-paymentgateway-paymentgatewayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +685,7 @@
 		};
 		83836ABF23D8068000E75CE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5A0A9D69F16B0468897BD5 /* Pods-paymentgateway-paymentgatewayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
